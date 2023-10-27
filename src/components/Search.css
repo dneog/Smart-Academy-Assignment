@@ -69,3 +69,15 @@
         margin-right: 20px;
     }
 }
+
+@media screen and (max-width: 1000px) {
+    .s1{
+        text-align: center;
+        font-size: 40px;
+        font-weight: 500;
+        color: #ffffff;
+       padding-top: 150px;
+       
+        
+    }
+}
