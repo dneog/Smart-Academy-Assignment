@@ -1,0 +1,117 @@
+.footer{
+    background: #008BD8;
+   padding-bottom: 0px;
+   
+}
+.mfooter{
+    max-width: 1400px;
+    margin: 0px auto;
+    display: flex;
+    justify-content: space-between;
+    padding: 0px;
+    padding-top: 60px;
+    
+}
+.ft1{
+    color: white;
+    font-size: 35px;
+    font-weight: 500;
+    padding-bottom: 40px;
+}
+.ft2{
+    font-size: 18px;
+    color: white;
+    padding-bottom: 70px;
+}
+.logos{
+    display: flex;
+    gap: 30px;
+    margin-bottom: 60px;
+}
+
+.f11{
+    width: 30%;
+   
+    
+}
+
+f22{
+    width: 30%;
+}
+f33{
+    width: 30%;
+}
+
+.ft3{
+    font-size: 27px;
+    color: white;
+
+}
+
+.ft4{
+    color: white;
+    font-size: 20px;
+    padding-top: 40px;
+}
+.ft5{
+    color: white;
+    font-size: 20px;
+    padding-top: 28px;
+}
+
+@media screen and (max-width: 800px) {
+    .mfooter{
+        max-width: 1400px;
+        margin: 0px auto;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+        padding: 10px;
+        padding-top: 60px;
+    }
+    .ft1{
+        color: white;
+        font-size: 35px;
+        font-weight: 500;
+        padding-bottom: 20px;
+    }
+    .f11{
+        width: 90%;
+       
+        
+    }
+    .ft2{
+        font-size: 18px;
+        color: white;
+        padding-bottom: 20px;
+    }
+
+    .logos{
+        display: flex;
+        gap: 30px;
+        margin-bottom: 27px;
+    }
+
+    .ft3{
+        font-size: 22px;
+        color: white;
+    
+    }
+    
+    .ft4{
+        color: white;
+        font-size: 17px;
+        padding-top: 15px;
+    }
+    .ft5{
+        color: white;
+        font-size: 17px;
+        padding-top: 10px;
+        
+    }
+
+    .footer{
+        padding-bottom: 20px;
+    }
+    
+}

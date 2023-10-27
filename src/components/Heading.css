@@ -1,0 +1,145 @@
+.heading{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 15px 10px;
+   margin: auto;
+    
+    max-width: 1350px;
+    margin: 0px auto;
+   
+    
+}
+
+
+.p1{
+    width: 40%;
+   display: block;
+    
+}
+.close{
+    top: -100%;
+}
+.display{
+    top: 10%;
+}
+.p2{
+    width: 30%;
+    display: flex;
+    justify-content: center;
+    
+}
+
+.p3{
+    width: 30%;
+    display: flex;
+    align-items: center;
+    justify-content: right;
+}
+
+.list{
+    display: flex;
+    gap: 50px;
+    font-size: 20px;
+    font-weight: 500;
+    color: rgb(255, 255, 255);
+   
+}
+
+li a{
+    color: rgb(255, 255, 255);
+    
+}
+
+
+.smart{
+    font-size: 24px;
+    font-weight: 500;
+   
+    color: white;
+}
+
+
+.but{
+    font-size: 18px;
+    color: white;
+    background: #FF3C8A;
+    padding: 10px 20px;
+    border-radius: 25px;
+    border: 0;
+    cursor: pointer;
+}
+
+.icon{
+    color: white;
+    margin-left: 15px;
+    display: none;
+    cursor: pointer;
+}
+@media screen and (max-width: 800px) {
+    .icon{
+        color: white;
+        margin-left: 15px;
+        display: block;
+    }
+
+    .p1{
+        width: 145px;
+        position: absolute;
+        display: flex;
+        flex-direction: column;
+       
+        left: 74%;
+        padding: 18px;
+        background: #949494;
+        border-radius: 15px;
+        box-shadow: 2px 2px 10px rgba(32, 32, 32, 0.574);
+    }
+    .list {
+        display: flex;
+        flex-direction: column;
+        gap: 18px;
+        font-size: 20px;
+        font-weight: 500;
+        color: rgb(34, 34, 34);
+       
+    }
+    .p2{
+        width: 30%;
+        justify-content: start;
+    }
+    .p3{
+        width: 70%;
+    }
+    
+}
+
+@media screen and (max-width: 600px) {
+    .but{
+        font-size: 16px;
+        color: white;
+        background: #FF3C8A;
+        padding: 10px 15px;
+        border-radius: 25px;
+        border: 0;
+        cursor: pointer;
+    }
+    .smart{
+        font-size: 18px;
+        font-weight: 500;
+       
+        color: white;
+    }
+    .p1{
+        width: 145px;
+        position: absolute;
+        display: flex;
+        flex-direction: column;
+       
+        left: 60%;
+        padding: 18px;
+        background: #949494;
+        border-radius: 15px;
+        box-shadow: 2px 2px 10px rgba(32, 32, 32, 0.574);
+    }
+}

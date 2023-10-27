@@ -1,0 +1,53 @@
+.card{
+    display: flex;
+    justify-content: center;
+    max-width: 1350px;
+    margin: 0px auto;
+}
+
+.c1{
+    background: white;
+    width: 280px;
+    border-radius: 25px;
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    text-align: center;
+    padding: 55px 30px;
+    margin: 20px;
+}
+
+.tt1{
+    font-size: 24px;
+    font-weight: 500;
+    padding-top: 18px;
+    padding-bottom: 40px;
+}
+
+.tt2{
+    font-size: 19px;
+    
+    color: #363636;
+}
+
+.butsss{
+    font-size:20px;
+    color: white;
+    background: #FF3C8A;
+    padding: 12px 40px;
+    border-radius: 25px;
+    border: 0;
+    font-weight: 500;
+    width: 200px;
+   display: flex;
+   margin: 40px auto;
+ }
+
+ @media screen and (max-width: 1200px) {
+    .card{
+        display: flex;
+        flex-wrap: wrap;
+    }
+    
+ }

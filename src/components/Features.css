@@ -1,0 +1,50 @@
+.f1{
+    
+    margin-bottom: 80px;
+}
+.features{
+    display: flex;
+    justify-content: center;
+    max-width: 1350px;
+    margin: 10px auto;
+    gap: 30px;
+    margin-top: 30px;
+}
+
+.k2{
+    padding-top: 10px;
+    font-size: 22px;
+    color: #008BD8;
+    font-weight: 500;
+   
+}
+
+.t111{
+    text-align: center;
+    font-size: 58px;
+    font-weight: 500;
+    color: #008BD8;
+    margin: 70px 0px;
+    background: #F5F5F5;
+    
+}
+
+
+@media screen and (max-width: 1240px) {
+    .features{
+        display: flex;
+        flex-wrap: wrap;
+    }
+}
+@media screen and (max-width: 800px) {
+    .t111{
+        text-align: center;
+        font-size: 40px;
+        font-weight: 500;
+        color: #008BD8;
+        margin: 70px 0px;
+        background: #F5F5F5;
+        
+    }
+}
+

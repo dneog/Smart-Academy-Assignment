@@ -1,0 +1,49 @@
+.art{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.a1{
+    background: white;
+    width: 370px;
+    min-width: 350px;
+    border-radius: 25px;
+    margin: 20px;
+}
+
+.a2{
+    color: #008BD8;
+    font-size: 23px;
+    font-weight: 500;
+    text-align: center;
+    width: 240px;
+
+    margin: 20px auto;
+}
+
+.im1{
+    width: 100%;
+}
+.a3{
+    font-size: 19px;
+    color: #363636;
+    
+    width: 250px;
+    margin: 40px auto;
+}
+
+.butssss{
+    font-size:20px;
+    color: white;
+    background: #FF3C8A;
+    padding: 12px 40px;
+    border-radius: 25px;
+    border: 0;
+    font-weight: 500;
+   text-align: center;
+   width: 200px;
+   margin: 40px auto;
+ }
+
+
